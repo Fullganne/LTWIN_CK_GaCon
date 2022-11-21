@@ -63,5 +63,17 @@ namespace QLST_WinForm
             OrderForm odr = new OrderForm();
             OpenChildForm(odr);
         }
+
+        private void btnInfo_Click(object sender, EventArgs e)
+        {
+            CreditForm credit = new CreditForm();
+            OpenChildForm(credit);
+        }
+
+        private void btnGuide_Click(object sender, EventArgs e)
+        {
+            GuideForm guide = new GuideForm();
+            OpenChildForm(guide);
+        }
     }   
 }

@@ -145,6 +145,9 @@
     <EmbeddedResource Include="CategoriesModuleForm.resx">
       <DependentUpon>CategoriesModuleForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CreditForm.resx">
+      <DependentUpon>CreditForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CustomerButton.resx">
       <DependentUpon>CustomerButton.cs</DependentUpon>
     </EmbeddedResource>
@@ -153,6 +156,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CustomerModuleForm.resx">
       <DependentUpon>CustomerModuleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuideForm.resx">
+      <DependentUpon>GuideForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>

@@ -31,6 +31,10 @@
             System.Windows.Forms.Label label1;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label12 = new System.Windows.Forms.Label();
+            this.btnGuide = new QLST_WinForm.CustomerButton();
+            this.label11 = new System.Windows.Forms.Label();
+            this.btnInfo = new QLST_WinForm.CustomerButton();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -50,6 +54,8 @@
             this.label9 = new System.Windows.Forms.Label();
             label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnGuide)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnInfo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnOrder)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnUser)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCategories)).BeginInit();
@@ -73,6 +79,10 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.panel1.Controls.Add(this.label12);
+            this.panel1.Controls.Add(this.btnGuide);
+            this.panel1.Controls.Add(this.label11);
+            this.panel1.Controls.Add(this.btnInfo);
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.label6);
@@ -94,12 +104,62 @@
             this.panel1.Size = new System.Drawing.Size(1110, 131);
             this.panel1.TabIndex = 0;
             // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.Location = new System.Drawing.Point(922, 86);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(59, 19);
+            this.label12.TabIndex = 8;
+            this.label12.Text = "GUIDE";
+            // 
+            // btnGuide
+            // 
+            this.btnGuide.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGuide.Image = ((System.Drawing.Image)(resources.GetObject("btnGuide.Image")));
+            this.btnGuide.ImageHover = ((System.Drawing.Image)(resources.GetObject("btnGuide.ImageHover")));
+            this.btnGuide.ImageNormal = ((System.Drawing.Image)(resources.GetObject("btnGuide.ImageNormal")));
+            this.btnGuide.Location = new System.Drawing.Point(921, 29);
+            this.btnGuide.Name = "btnGuide";
+            this.btnGuide.Size = new System.Drawing.Size(55, 54);
+            this.btnGuide.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnGuide.TabIndex = 7;
+            this.btnGuide.TabStop = false;
+            this.btnGuide.Click += new System.EventHandler(this.btnGuide_Click);
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.White;
+            this.label11.Location = new System.Drawing.Point(846, 86);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(49, 19);
+            this.label11.TabIndex = 6;
+            this.label11.Text = "INFO";
+            // 
+            // btnInfo
+            // 
+            this.btnInfo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnInfo.Image = ((System.Drawing.Image)(resources.GetObject("btnInfo.Image")));
+            this.btnInfo.ImageHover = ((System.Drawing.Image)(resources.GetObject("btnInfo.ImageHover")));
+            this.btnInfo.ImageNormal = ((System.Drawing.Image)(resources.GetObject("btnInfo.ImageNormal")));
+            this.btnInfo.Location = new System.Drawing.Point(838, 29);
+            this.btnInfo.Name = "btnInfo";
+            this.btnInfo.Size = new System.Drawing.Size(55, 54);
+            this.btnInfo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnInfo.TabIndex = 5;
+            this.btnInfo.TabStop = false;
+            this.btnInfo.Click += new System.EventHandler(this.btnInfo_Click);
+            // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(819, 86);
+            this.label8.Location = new System.Drawing.Point(754, 86);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(64, 19);
             this.label8.TabIndex = 4;
@@ -110,7 +170,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(716, 86);
+            this.label7.Location = new System.Drawing.Point(666, 86);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(47, 19);
             this.label7.TabIndex = 4;
@@ -121,7 +181,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(567, 86);
+            this.label6.Location = new System.Drawing.Point(530, 86);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(112, 19);
             this.label6.TabIndex = 4;
@@ -132,7 +192,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(441, 86);
+            this.label5.Location = new System.Drawing.Point(419, 86);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(105, 19);
             this.label5.TabIndex = 4;
@@ -143,7 +203,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(322, 86);
+            this.label4.Location = new System.Drawing.Point(319, 86);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(85, 19);
             this.label4.TabIndex = 4;
@@ -155,7 +215,7 @@
             this.btnOrder.Image = ((System.Drawing.Image)(resources.GetObject("btnOrder.Image")));
             this.btnOrder.ImageHover = ((System.Drawing.Image)(resources.GetObject("btnOrder.ImageHover")));
             this.btnOrder.ImageNormal = ((System.Drawing.Image)(resources.GetObject("btnOrder.ImageNormal")));
-            this.btnOrder.Location = new System.Drawing.Point(821, 29);
+            this.btnOrder.Location = new System.Drawing.Point(752, 29);
             this.btnOrder.Name = "btnOrder";
             this.btnOrder.Size = new System.Drawing.Size(55, 54);
             this.btnOrder.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -169,7 +229,7 @@
             this.btnUser.Image = ((System.Drawing.Image)(resources.GetObject("btnUser.Image")));
             this.btnUser.ImageHover = ((System.Drawing.Image)(resources.GetObject("btnUser.ImageHover")));
             this.btnUser.ImageNormal = ((System.Drawing.Image)(resources.GetObject("btnUser.ImageNormal")));
-            this.btnUser.Location = new System.Drawing.Point(714, 27);
+            this.btnUser.Location = new System.Drawing.Point(658, 29);
             this.btnUser.Name = "btnUser";
             this.btnUser.Size = new System.Drawing.Size(55, 54);
             this.btnUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -183,7 +243,7 @@
             this.btnCategories.Image = ((System.Drawing.Image)(resources.GetObject("btnCategories.Image")));
             this.btnCategories.ImageHover = ((System.Drawing.Image)(resources.GetObject("btnCategories.ImageHover")));
             this.btnCategories.ImageNormal = ((System.Drawing.Image)(resources.GetObject("btnCategories.ImageNormal")));
-            this.btnCategories.Location = new System.Drawing.Point(583, 29);
+            this.btnCategories.Location = new System.Drawing.Point(550, 29);
             this.btnCategories.Name = "btnCategories";
             this.btnCategories.Size = new System.Drawing.Size(55, 54);
             this.btnCategories.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -197,7 +257,7 @@
             this.btnCustomer.Image = ((System.Drawing.Image)(resources.GetObject("btnCustomer.Image")));
             this.btnCustomer.ImageHover = ((System.Drawing.Image)(resources.GetObject("btnCustomer.ImageHover")));
             this.btnCustomer.ImageNormal = ((System.Drawing.Image)(resources.GetObject("btnCustomer.ImageNormal")));
-            this.btnCustomer.Location = new System.Drawing.Point(456, 29);
+            this.btnCustomer.Location = new System.Drawing.Point(435, 29);
             this.btnCustomer.Name = "btnCustomer";
             this.btnCustomer.Size = new System.Drawing.Size(55, 54);
             this.btnCustomer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -211,7 +271,7 @@
             this.btnProduct.Image = ((System.Drawing.Image)(resources.GetObject("btnProduct.Image")));
             this.btnProduct.ImageHover = ((System.Drawing.Image)(resources.GetObject("btnProduct.ImageHover")));
             this.btnProduct.ImageNormal = ((System.Drawing.Image)(resources.GetObject("btnProduct.ImageNormal")));
-            this.btnProduct.Location = new System.Drawing.Point(328, 29);
+            this.btnProduct.Location = new System.Drawing.Point(323, 29);
             this.btnProduct.Name = "btnProduct";
             this.btnProduct.Size = new System.Drawing.Size(60, 54);
             this.btnProduct.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -313,6 +373,8 @@
             this.Text = "MainForm";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnGuide)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnInfo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnOrder)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnUser)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCategories)).EndInit();
@@ -345,5 +407,9 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label11;
+        private CustomerButton btnInfo;
+        private System.Windows.Forms.Label label12;
+        private CustomerButton btnGuide;
     }
 }

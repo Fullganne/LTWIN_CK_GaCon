@@ -44,3 +44,5 @@ D:\Repos\QLST_WinForm\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.csproj.Ge
 D:\Repos\QLST_WinForm\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.csproj.CoreCompileInputs.cache
 D:\Repos\QLST_WinForm\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.exe
 D:\Repos\QLST_WinForm\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.pdb
+D:\Repos\QLST_WinForm\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.CreditForm.resources
+D:\Repos\QLST_WinForm\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.GuideForm.resources
