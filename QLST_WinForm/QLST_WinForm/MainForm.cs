@@ -75,5 +75,10 @@ namespace QLST_WinForm
             GuideForm guide = new GuideForm();
             OpenChildForm(guide);
         }
+
+        private void pnlMain_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }   
 }

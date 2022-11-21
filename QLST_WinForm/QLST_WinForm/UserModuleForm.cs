@@ -25,7 +25,7 @@ namespace QLST_WinForm
 
 
 
-        SqlConnection conn = new SqlConnection(@"Data Source=.\ANSERVER;Initial Catalog=IMSDB;Integrated Security=True");
+        SqlConnection conn = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=IMSDB;Integrated Security=True");
         SqlCommand cmd= new SqlCommand();
         public UserModuleForm()
         {
@@ -119,6 +119,11 @@ namespace QLST_WinForm
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void UserModuleForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

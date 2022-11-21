@@ -23,7 +23,7 @@ namespace QLST_WinForm
         [DllImportAttribute("user32.dll")]
         public static extern bool ReleaseCapture();
 
-        SqlConnection conn = new SqlConnection(@"Data Source=.\ANSERVER;Initial Catalog=IMSDB;Integrated Security=True");
+        SqlConnection conn = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=IMSDB;Integrated Security=True");
         SqlCommand cmd = new SqlCommand();
         SqlDataReader rd = null;
         public static int qty = 0;
@@ -239,6 +239,11 @@ namespace QLST_WinForm
             rd.Close();
 
             conn.Close();
+        }
+
+        private void dgvProducts_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 

@@ -72,7 +72,7 @@
             label1.ForeColor = System.Drawing.Color.White;
             label1.Location = new System.Drawing.Point(12, 69);
             label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(301, 23);
+            label1.Size = new System.Drawing.Size(238, 19);
             label1.TabIndex = 0;
             label1.Text = "SYSTEM MANAGER INVENTORY";
             // 
@@ -111,7 +111,7 @@
             this.label12.ForeColor = System.Drawing.Color.White;
             this.label12.Location = new System.Drawing.Point(922, 86);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(59, 19);
+            this.label12.Size = new System.Drawing.Size(50, 17);
             this.label12.TabIndex = 8;
             this.label12.Text = "GUIDE";
             // 
@@ -136,7 +136,7 @@
             this.label11.ForeColor = System.Drawing.Color.White;
             this.label11.Location = new System.Drawing.Point(846, 86);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(49, 19);
+            this.label11.Size = new System.Drawing.Size(41, 17);
             this.label11.TabIndex = 6;
             this.label11.Text = "INFO";
             // 
@@ -161,7 +161,7 @@
             this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.Location = new System.Drawing.Point(754, 86);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(64, 19);
+            this.label8.Size = new System.Drawing.Size(53, 17);
             this.label8.TabIndex = 4;
             this.label8.Text = "ORDER";
             // 
@@ -172,7 +172,7 @@
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(666, 86);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(47, 19);
+            this.label7.Size = new System.Drawing.Size(39, 17);
             this.label7.TabIndex = 4;
             this.label7.Text = "USER";
             // 
@@ -183,7 +183,7 @@
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(530, 86);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(112, 19);
+            this.label6.Size = new System.Drawing.Size(92, 17);
             this.label6.TabIndex = 4;
             this.label6.Text = "CATEGORIES";
             // 
@@ -194,7 +194,7 @@
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(419, 86);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(105, 19);
+            this.label5.Size = new System.Drawing.Size(88, 17);
             this.label5.TabIndex = 4;
             this.label5.Text = "CUSTOMERS";
             // 
@@ -205,7 +205,7 @@
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(319, 86);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(85, 19);
+            this.label4.Size = new System.Drawing.Size(72, 17);
             this.label4.TabIndex = 4;
             this.label4.Text = "PRODUCT";
             // 
@@ -286,7 +286,7 @@
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(56, 29);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(102, 23);
+            this.label3.Size = new System.Drawing.Size(81, 19);
             this.label3.TabIndex = 2;
             this.label3.Text = "Category";
             // 
@@ -297,7 +297,7 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(12, 9);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(56, 41);
+            this.label2.Size = new System.Drawing.Size(44, 32);
             this.label2.TabIndex = 1;
             this.label2.Text = "G";
             // 
@@ -322,6 +322,7 @@
             this.pnlMain.Name = "pnlMain";
             this.pnlMain.Size = new System.Drawing.Size(1110, 599);
             this.pnlMain.TabIndex = 0;
+            this.pnlMain.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlMain_Paint);
             // 
             // panel3
             // 
@@ -341,7 +342,7 @@
             this.label10.ForeColor = System.Drawing.Color.White;
             this.label10.Location = new System.Drawing.Point(370, 123);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(305, 70);
+            this.label10.Size = new System.Drawing.Size(244, 56);
             this.label10.TabIndex = 2;
             this.label10.Text = "Category";
             // 
@@ -353,13 +354,13 @@
             this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(258, 83);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(146, 110);
+            this.label9.Size = new System.Drawing.Size(116, 87);
             this.label9.TabIndex = 1;
             this.label9.Text = "G";
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1110, 730);
             this.Controls.Add(this.panel2);
