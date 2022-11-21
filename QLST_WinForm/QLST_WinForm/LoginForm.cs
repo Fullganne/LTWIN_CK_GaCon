@@ -76,6 +76,7 @@ namespace QLST_WinForm
                 conn.Close();
                 if(!flag)
                 {
+                    lblnoti.Visible = true;
                     lblnoti.Text = "User name or pasword is not correct !";
                 }
                 else

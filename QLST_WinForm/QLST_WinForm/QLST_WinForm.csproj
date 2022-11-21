@@ -59,6 +59,12 @@
     <Compile Include="CategoriesModuleForm.Designer.cs">
       <DependentUpon>CategoriesModuleForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CreditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreditForm.Designer.cs">
+      <DependentUpon>CreditForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="CustomerButton.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -76,6 +82,12 @@
     </Compile>
     <Compile Include="CustomerModuleForm.Designer.cs">
       <DependentUpon>CustomerModuleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GuideForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuideForm.Designer.cs">
+      <DependentUpon>GuideForm.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>

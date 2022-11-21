@@ -209,11 +209,11 @@
             this.lblnoti.AutoSize = true;
             this.lblnoti.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblnoti.ForeColor = System.Drawing.Color.Red;
-            this.lblnoti.Location = new System.Drawing.Point(118, 402);
+            this.lblnoti.Location = new System.Drawing.Point(56, 402);
             this.lblnoti.Name = "lblnoti";
-            this.lblnoti.Size = new System.Drawing.Size(52, 18);
+            this.lblnoti.Size = new System.Drawing.Size(91, 18);
             this.lblnoti.TabIndex = 6;
-            this.lblnoti.Text = "label5";
+            this.lblnoti.Text = "notification";
             this.lblnoti.Visible = false;
             // 
             // LoginForm
