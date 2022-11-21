@@ -52,9 +52,10 @@
             this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClear.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.ForeColor = System.Drawing.Color.White;
-            this.btnClear.Location = new System.Drawing.Point(403, 196);
+            this.btnClear.Location = new System.Drawing.Point(302, 159);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(127, 56);
+            this.btnClear.Size = new System.Drawing.Size(95, 46);
             this.btnClear.TabIndex = 31;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = false;
@@ -67,9 +68,10 @@
             this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUpdate.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.ForeColor = System.Drawing.Color.White;
-            this.btnUpdate.Location = new System.Drawing.Point(269, 196);
+            this.btnUpdate.Location = new System.Drawing.Point(202, 159);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(127, 56);
+            this.btnUpdate.Size = new System.Drawing.Size(95, 46);
             this.btnUpdate.TabIndex = 30;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = false;
@@ -82,9 +84,10 @@
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSave.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.ForeColor = System.Drawing.Color.White;
-            this.btnSave.Location = new System.Drawing.Point(135, 196);
+            this.btnSave.Location = new System.Drawing.Point(101, 159);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(127, 56);
+            this.btnSave.Size = new System.Drawing.Size(95, 46);
             this.btnSave.TabIndex = 29;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = false;
@@ -94,27 +97,30 @@
             // 
             this.label.AutoSize = true;
             this.label.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label.Location = new System.Drawing.Point(40, 104);
+            this.label.Location = new System.Drawing.Point(30, 84);
+            this.label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label.Name = "label";
-            this.label.Size = new System.Drawing.Size(97, 18);
+            this.label.Size = new System.Drawing.Size(77, 16);
             this.label.TabIndex = 24;
             this.label.Text = "Category ID";
             // 
             // txtName
             // 
             this.txtName.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtName.Location = new System.Drawing.Point(148, 146);
+            this.txtName.Location = new System.Drawing.Point(111, 119);
+            this.txtName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(382, 26);
+            this.txtName.Size = new System.Drawing.Size(288, 22);
             this.txtName.TabIndex = 23;
             // 
             // lblID
             // 
             this.lblID.AutoSize = true;
             this.lblID.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblID.Location = new System.Drawing.Point(145, 104);
+            this.lblID.Location = new System.Drawing.Point(109, 84);
+            this.lblID.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblID.Name = "lblID";
-            this.lblID.Size = new System.Drawing.Size(23, 18);
+            this.lblID.Size = new System.Drawing.Size(19, 16);
             this.lblID.TabIndex = 26;
             this.lblID.Text = "ID";
             // 
@@ -122,9 +128,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(10, 151);
+            this.label2.Location = new System.Drawing.Point(8, 123);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(127, 18);
+            this.label2.Size = new System.Drawing.Size(101, 16);
             this.label2.TabIndex = 27;
             this.label2.Text = "Category Name";
             // 
@@ -133,9 +140,10 @@
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Location = new System.Drawing.Point(560, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(420, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(28, 26);
+            this.pictureBox1.Size = new System.Drawing.Size(21, 21);
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -145,9 +153,10 @@
             this.ptbClose.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ptbClose.BackgroundImage")));
             this.ptbClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ptbClose.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ptbClose.Location = new System.Drawing.Point(629, 3);
+            this.ptbClose.Location = new System.Drawing.Point(472, 2);
+            this.ptbClose.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ptbClose.Name = "ptbClose";
-            this.ptbClose.Size = new System.Drawing.Size(32, 29);
+            this.ptbClose.Size = new System.Drawing.Size(24, 24);
             this.ptbClose.TabIndex = 5;
             this.ptbClose.TabStop = false;
             // 
@@ -156,9 +165,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(25, 27);
+            this.label1.Location = new System.Drawing.Point(19, 22);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(182, 23);
+            this.label1.Size = new System.Drawing.Size(144, 19);
             this.label1.TabIndex = 0;
             this.label1.Text = "Category Module";
             // 
@@ -173,16 +183,17 @@
             this.pnlhead.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pnlhead.ForeColor = System.Drawing.SystemColors.ControlText;
             this.pnlhead.Location = new System.Drawing.Point(0, 0);
+            this.pnlhead.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pnlhead.Name = "pnlhead";
-            this.pnlhead.Size = new System.Drawing.Size(591, 76);
+            this.pnlhead.Size = new System.Drawing.Size(443, 62);
             this.pnlhead.TabIndex = 22;
             this.pnlhead.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlhead_MouseDown);
             // 
             // CategoriesModuleForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(591, 296);
+            this.ClientSize = new System.Drawing.Size(443, 240);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnSave);
@@ -192,9 +203,11 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pnlhead);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "CategoriesModuleForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CategoriesModuleForm";
+            this.Load += new System.EventHandler(this.CategoriesModuleForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbClose)).EndInit();
             this.pnlhead.ResumeLayout(false);

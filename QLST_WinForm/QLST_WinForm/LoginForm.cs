@@ -12,7 +12,7 @@ namespace QLST_WinForm
 {
     public partial class LoginForm : Form
     {
-        SqlConnection conn = new SqlConnection(@"Data Source=.\ANSERVER;Initial Catalog=IMSDB;Integrated Security=True");
+        SqlConnection conn = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=IMSDB;Integrated Security=True");
         SqlCommand cmd = new SqlCommand();
         SqlDataReader rd = null;
         public LoginForm()
@@ -90,6 +90,11 @@ namespace QLST_WinForm
         private void txtTenDangNhap_KeyPress(object sender, KeyPressEventArgs e)
         {
             lblnoti.Visible = false;
+        }
+
+        private void LoginForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
