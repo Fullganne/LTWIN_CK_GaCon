@@ -1,0 +1,46 @@
+C:\Users\MSI VN\Desktop\Đồ Án\QLST_WinForm\QLST_WinForm\bin\Debug\QLST_WinForm.exe.config
+C:\Users\MSI VN\Desktop\Đồ Án\QLST_WinForm\QLST_WinForm\bin\Debug\QLST_WinForm.exe
+C:\Users\MSI VN\Desktop\Đồ Án\QLST_WinForm\QLST_WinForm\bin\Debug\QLST_WinForm.pdb
+C:\Users\MSI VN\Desktop\Đồ Án\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.csproj.AssemblyReference.cache
+C:\Users\MSI VN\Desktop\Đồ Án\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.csproj.SuggestedBindingRedirects.cache
+C:\Users\MSI VN\Desktop\Đồ Án\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.LoginForm.resources
+C:\Users\MSI VN\Desktop\Đồ Án\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.Properties.Resources.resources
+C:\Users\MSI VN\Desktop\Đồ Án\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.csproj.GenerateResource.cache
+C:\Users\MSI VN\Desktop\Đồ Án\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.csproj.CoreCompileInputs.cache
+C:\Users\MSI VN\Desktop\Đồ Án\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.exe
+C:\Users\MSI VN\Desktop\Đồ Án\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.pdb
+C:\Users\MSI VN\Desktop\Đồ Án\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.CustomerButton.resources
+C:\Users\MSI VN\Desktop\Đồ Án\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.MainForm.resources
+C:\Users\MSI VN\Desktop\Đồ Án\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.UserForm.resources
+C:\Users\MSI VN\Desktop\Đồ Án\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.UserModuleForm.resources
+C:\Users\MSI VN\Desktop\Đồ Án\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.CustomerForm.resources
+C:\Users\MSI VN\Desktop\Đồ Án\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.CustomerModuleForm.resources
+C:\Users\MSI VN\Desktop\Đồ Án\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.CategoriesForm.resources
+C:\Users\MSI VN\Desktop\Đồ Án\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.CategoriesModuleForm.resources
+C:\Users\MSI VN\Desktop\Đồ Án\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.ProductForm.resources
+C:\Users\MSI VN\Desktop\Đồ Án\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.ProductModuleForm.resources
+C:\Users\MSI VN\Desktop\Đồ Án\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.OrderForm.resources
+C:\Users\MSI VN\Desktop\Đồ Án\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.OrderModuleForm.resources
+D:\Repos\QLST_WinForm\QLST_WinForm\QLST_WinForm\bin\Debug\QLST_WinForm.exe.config
+D:\Repos\QLST_WinForm\QLST_WinForm\QLST_WinForm\bin\Debug\QLST_WinForm.exe
+D:\Repos\QLST_WinForm\QLST_WinForm\QLST_WinForm\bin\Debug\QLST_WinForm.pdb
+D:\Repos\QLST_WinForm\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.csproj.AssemblyReference.cache
+D:\Repos\QLST_WinForm\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.csproj.SuggestedBindingRedirects.cache
+D:\Repos\QLST_WinForm\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.CategoriesForm.resources
+D:\Repos\QLST_WinForm\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.CategoriesModuleForm.resources
+D:\Repos\QLST_WinForm\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.CustomerButton.resources
+D:\Repos\QLST_WinForm\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.CustomerForm.resources
+D:\Repos\QLST_WinForm\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.CustomerModuleForm.resources
+D:\Repos\QLST_WinForm\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.LoginForm.resources
+D:\Repos\QLST_WinForm\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.MainForm.resources
+D:\Repos\QLST_WinForm\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.OrderForm.resources
+D:\Repos\QLST_WinForm\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.OrderModuleForm.resources
+D:\Repos\QLST_WinForm\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.ProductForm.resources
+D:\Repos\QLST_WinForm\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.ProductModuleForm.resources
+D:\Repos\QLST_WinForm\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.Properties.Resources.resources
+D:\Repos\QLST_WinForm\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.UserForm.resources
+D:\Repos\QLST_WinForm\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.UserModuleForm.resources
+D:\Repos\QLST_WinForm\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.csproj.GenerateResource.cache
+D:\Repos\QLST_WinForm\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.csproj.CoreCompileInputs.cache
+D:\Repos\QLST_WinForm\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.exe
+D:\Repos\QLST_WinForm\QLST_WinForm\QLST_WinForm\obj\Debug\QLST_WinForm.pdb
