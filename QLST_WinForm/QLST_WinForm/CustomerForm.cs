@@ -81,5 +81,11 @@ namespace QLST_WinForm
             }
             LoadCustomer();
         }
+
+        private void btnReport_Click(object sender, EventArgs e)
+        {
+            ListCustomerReport listCustomerReport = new ListCustomerReport();
+            listCustomerReport.Show();
+        }
     }
 }
