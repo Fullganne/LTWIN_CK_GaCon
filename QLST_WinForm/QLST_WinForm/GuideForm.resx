@@ -118,11 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="textBox1.Text" xml:space="preserve">
-    <value>	Hướng dẫn đăng nhập
+    <value>	
+               Hướng dẫn đăng nhập
  Nhập tài khoản và mật khẩu sau đó nhấn Login để đăng nhập
  Để làm mới giao diện chọn Refresh và Để hiển thị mật khẩu chọn Show password
-
-          Hướng dẫn sử dụng ứng dụng
 
 	Manager Products 
  Để hiển thị tất cả sản phẩm đang có chọn PRODUCT trên thanh menu
