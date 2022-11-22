@@ -103,5 +103,12 @@ namespace QLST_WinForm
                 conn.Close();
             }
         }
+
+        private void btnReport_Click(object sender, EventArgs e)
+        {
+            ListProductReport ListProductReport = new ListProductReport();
+            ListProductReport.Show();
+
+        }
     }
 }
