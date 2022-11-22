@@ -23,7 +23,7 @@ namespace QLST_WinForm
         [DllImportAttribute("user32.dll")]
         public static extern bool ReleaseCapture();
 
-        SqlConnection conn = new SqlConnection(@"Data Source=.\ANSERVER;Initial Catalog=IMSDB;Integrated Security=True");
+        SqlConnection conn = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=IMSDB;Integrated Security=True");
         SqlCommand cmd = new SqlCommand();
         private void pnlhead_MouseDown(object sender, MouseEventArgs e)
         {
@@ -98,6 +98,11 @@ namespace QLST_WinForm
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void CategoriesModuleForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
