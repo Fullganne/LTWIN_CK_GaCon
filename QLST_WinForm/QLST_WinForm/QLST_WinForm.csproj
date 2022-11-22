@@ -110,6 +110,9 @@
     <Compile Include="GuideForm.Designer.cs">
       <DependentUpon>GuideForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="IMSDBDataSet.cs">
+      <DependentUpon>IMSDBDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="IMSDBDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
