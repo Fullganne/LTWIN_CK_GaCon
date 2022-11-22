@@ -30,11 +30,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CreditForm));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.lbgroupname = new System.Windows.Forms.Label();
             this.pnlhead = new System.Windows.Forms.Panel();
             this.lblname = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.panel1.SuspendLayout();
             this.pnlhead.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -53,6 +53,16 @@
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox1.Location = new System.Drawing.Point(12, 97);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(439, 263);
+            this.richTextBox1.TabIndex = 2;
+            this.richTextBox1.Text = "Thành viên:\n- Nguyễn Đức Ân\n- Phan Lương Thùy Dương\n- Nguyễn Trần Ánh Linh\n- Võ K" +
+    "iến Phú\n- Võ Nguyễn Đình Quân";
+            // 
             // lbgroupname
             // 
             this.lbgroupname.AutoSize = true;
@@ -70,7 +80,7 @@
             this.pnlhead.Controls.Add(this.pictureBox2);
             this.pnlhead.Location = new System.Drawing.Point(0, 0);
             this.pnlhead.Name = "pnlhead";
-            this.pnlhead.Size = new System.Drawing.Size(1091, 48);
+            this.pnlhead.Size = new System.Drawing.Size(454, 48);
             this.pnlhead.TabIndex = 0;
             // 
             // lblname
@@ -95,16 +105,6 @@
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.Location = new System.Drawing.Point(12, 97);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(439, 263);
-            this.richTextBox1.TabIndex = 2;
-            this.richTextBox1.Text = "Thành viên:\n- Nguyễn Đức Ân\n- Phan Lương Thùy Dương\n- Nguyễn Trần Ánh Linh\n- Võ K" +
-    "iến Phú\n- Võ Nguyễn Đình Quân";
             // 
             // CreditForm
             // 
