@@ -75,12 +75,12 @@
             // 
             // pnlhead
             // 
-            this.pnlhead.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.pnlhead.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(70)))), ((int)(((byte)(160)))));
             this.pnlhead.Controls.Add(this.lblname);
             this.pnlhead.Controls.Add(this.pictureBox2);
             this.pnlhead.Location = new System.Drawing.Point(0, 0);
             this.pnlhead.Name = "pnlhead";
-            this.pnlhead.Size = new System.Drawing.Size(454, 48);
+            this.pnlhead.Size = new System.Drawing.Size(454, 38);
             this.pnlhead.TabIndex = 0;
             // 
             // lblname
