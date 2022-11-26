@@ -16,5 +16,16 @@ namespace QLST_WinForm
         {
             InitializeComponent();
         }
+
+        private void ListProductReport_Load(object sender, EventArgs e)
+        {
+            this.tblProductTableAdapter1.Fill(this.imsdbDataSet1.tblProduct);
+            this.reportViewer1.RefreshReport();
+        }
+
+        private void reportViewer1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

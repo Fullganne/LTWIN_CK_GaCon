@@ -29,11 +29,53 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
+            this.imsdbDataSet1 = new QLST_WinForm.IMSDBDataSet();
+            this.tblProductTableAdapter1 = new QLST_WinForm.IMSDBDataSetTableAdapters.tblProductTableAdapter();
+            this.tlbProductbindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.imsdbDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tlbProductbindingSource1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // reportViewer1
+            // 
+            this.reportViewer1.LocalReport.ReportEmbeddedResource = "QLST_WinForm.ListProductReport.rdlc";
+            this.reportViewer1.Location = new System.Drawing.Point(5, 6);
+            this.reportViewer1.Name = "reportViewer1";
+            this.reportViewer1.ServerReport.BearerToken = null;
+            this.reportViewer1.Size = new System.Drawing.Size(794, 441);
+            this.reportViewer1.TabIndex = 0;
+            this.reportViewer1.Load += new System.EventHandler(this.reportViewer1_Load);
+            // 
+            // imsdbDataSet1
+            // 
+            this.imsdbDataSet1.DataSetName = "IMSDBDataSet";
+            this.imsdbDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // tblProductTableAdapter1
+            // 
+            this.tblProductTableAdapter1.ClearBeforeFill = true;
+            // 
+            // ListProductReport
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.reportViewer1);
+            this.Name = "ListProductReport";
             this.Text = "ListProductReport";
+            this.Load += new System.EventHandler(this.ListProductReport_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.imsdbDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tlbProductbindingSource1)).EndInit();
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
+        private IMSDBDataSet imsdbDataSet1;
+        private IMSDBDataSetTableAdapters.tblProductTableAdapter tblProductTableAdapter1;
+        private System.Windows.Forms.BindingSource tlbProductbindingSource1;
     }
 }
