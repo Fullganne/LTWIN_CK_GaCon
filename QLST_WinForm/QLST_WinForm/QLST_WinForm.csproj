@@ -124,6 +124,12 @@
     <Compile Include="ListCustomerReport.Designer.cs">
       <DependentUpon>ListCustomerReport.cs</DependentUpon>
     </Compile>
+    <Compile Include="ListProductReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListProductReport.Designer.cs">
+      <DependentUpon>ListProductReport.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -198,6 +204,10 @@
     <EmbeddedResource Include="ListCustomerReport.rdlc" />
     <EmbeddedResource Include="ListCustomerReport.resx">
       <DependentUpon>ListCustomerReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListProductReport.rdlc" />
+    <EmbeddedResource Include="ListProductReport.resx">
+      <DependentUpon>ListProductReport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
