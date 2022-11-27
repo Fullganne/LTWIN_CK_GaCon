@@ -117,4 +117,69 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>	
+               Hướng dẫn đăng nhập
+ Nhập tài khoản và mật khẩu sau đó nhấn Login để đăng nhập
+ Để làm mới giao diện chọn Refresh và Để hiển thị mật khẩu chọn Show password
+
+	Manager Products 
+ Để hiển thị tất cả sản phẩm đang có chọn PRODUCT trên thanh menu
+ Trong đây hệ thống sẽ hiển thị các thông tin liên quan đến sản phẩm
+ Product ID: Mã sản phẩm
+ Name: Tên sản phẩm
+ Quantity: Số lượng sản phẩm đang có
+ Price: Giá của sản phẩm
+ Description: Mô tả sản phẩm
+ Category: Loại sản phẩm
+ Để chỉnh sửa thông tin sản phẩm chọn nút có icon hình cây bút
+ Để xóa sản phẩm chọn nút có icon hình thùng rác
+ Để tìm kiểm sản phẩm gõ thông tin trên thanh tìm kiếm ở thanh bên dưới
+ Để thêm sản phẩm chọn nút có icon hình dấu cộng
+ 
+	Manager Customers
+ Để hiển thị thông tin các khách hàng chọn CUSTOMERS trên thanh menu
+ Trong đây hệ thống sẽ hiển thị các thông tin liên quan đến khách hàng
+ Customer ID: mã khách hàng
+ Name: Họ tên khách hàng
+ Phone: Số điện thoại khách hàng
+ Để chỉnh sửa thông tin khách hàng chọn nút có icon hình cây bút
+ Để xóa khách hàng chọn nút có icon hình thùng rác
+ Để thêm khách hàng chọn nút có icon hình dấu cộng
+
+	Manage Categories
+ Để hiển thị thông tin các loại hàng chọn CATEGORIES trên thanh menu
+ Trong đây hệ thống sẽ hiển thị thông tin liên quan đến các loại hàng
+ Category ID: Mã loại hàng
+ Name: Tên loại hàng
+ Để chỉnh sửa thông tin loại hàng chọn nút có icon hình cây bút
+ Để xóa loại hàng chọn nút có icon hình thùng rác
+ Để thêm loại hàng chọn nút có icon hình dấu cộng
+
+	Manager Users
+ Để hiển thị thông tin người dùng chọn USERS trên thanh menu
+ Trong đây hệ thống sẽ hiển thị các thông tin liên quan đến người dùng
+ User Name: Tên tài khoản người dùng
+ Full Name: Họ tên người dùng
+ Password: Mật khẩu người dùng
+ Phone: Số điện thoại người dùng
+ Để chỉnh sửa thông tin người dùng chọn nút có icon hình cây bút
+ Để xóa người dùng chọn nút có icon hình thùng rác
+ Để thêm người dùng chọn nút có icon hình dấu cộng
+
+	Manager Order
+ Để tạo một hóa đơn bán hàng chọn ORDER sau đó chọn nút có icon hình dấu cộng chọn khách hàng, chọn sản phẩm, chọn ngày mua, chọn số lượng mua sau đó chọn Order Insert để hoàn thành
+ Các thông tin của một hóa đơn gồm có
+ Order ID: Mã hóa đơn 
+ Order Date: Ngày mua hàng
+ Product ID: Mã sản phẩm
+ Product Name: Tên sản phẩm
+ Customer ID: Mã khách hàng
+ Customer Name: Họ tên khách hàng
+ Qty: Số lượng mua hàng
+ Price: Giá tiền
+ Total Money: Tổng số tiền
+ Để xóa hóa đơn chọn nút có icon hình thùng rác
+ Để tìm kiểm hóa đơn gõ thông tin trên thanh tìm kiếm ở thanh bên dưới</value>
+  </data>
 </root>

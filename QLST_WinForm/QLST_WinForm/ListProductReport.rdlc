@@ -9,7 +9,7 @@
           <Paragraph>
             <TextRuns>
               <TextRun>
-                <Value>LIST OF CUSTOMERS</Value>
+                <Value>LIST OF PRODUCTS</Value>
                 <Style>
                   <FontFamily>Century Gothic</FontFamily>
                   <FontSize>20pt</FontSize>
@@ -25,10 +25,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox7</rd:DefaultName>
-        <Top>0.54334in</Top>
-        <Left>0.46in</Left>
         <Height>0.91333in</Height>
-        <Width>5.58in</Width>
+        <Width>7.38028in</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -44,19 +42,19 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>1.14486in</Width>
+              <Width>0.77361in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.14486in</Width>
+              <Width>1.94861in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.14486in</Width>
+              <Width>0.54861in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>2.47875in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.23736in</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
@@ -73,7 +71,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Product ID</Value>
-                              <Style />
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -85,7 +86,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>LightBlue</BackgroundColor>
+                        <BackgroundColor>#0046a0</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -103,8 +104,11 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Product Name</Value>
-                              <Style />
+                              <Value>Name</Value>
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -116,7 +120,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>LightBlue</BackgroundColor>
+                        <BackgroundColor>#0046a0</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -135,7 +139,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Quatity</Value>
-                              <Style />
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -147,7 +154,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>LightBlue</BackgroundColor>
+                        <BackgroundColor>#0046a0</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -166,7 +173,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Description</Value>
-                              <Style />
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -178,7 +188,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>LightBlue</BackgroundColor>
+                        <BackgroundColor>#0046a0</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -197,7 +207,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Price</Value>
-                              <Style />
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -209,7 +222,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>LightBlue</BackgroundColor>
+                        <BackgroundColor>#0046a0</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -397,10 +410,10 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DataSet1</DataSetName>
-        <Top>2.03in</Top>
-        <Left>0.46in</Left>
+        <Top>1.27167in</Top>
+        <Left>0.24333in</Left>
         <Height>0.55208in</Height>
-        <Width>5.43458in</Width>
+        <Width>6.98694in</Width>
         <ZIndex>1</ZIndex>
         <Style>
           <Border>
@@ -412,7 +425,7 @@
     <Height>5.98958in</Height>
     <Style />
   </Body>
-  <Width>6.5in</Width>
+  <Width>7.48028in</Width>
   <Page>
     <LeftMargin>1in</LeftMargin>
     <RightMargin>1in</RightMargin>
