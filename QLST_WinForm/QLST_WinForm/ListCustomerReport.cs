@@ -19,14 +19,9 @@ namespace QLST_WinForm
 
         private void ListCustomerReport_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'iMSDBDataSet.tblCustomer' table. You can move, or remove it, as needed.
+            // TODO: This line of code loads data into the 'iMSDBDataSet.tblProduct' table. You can move, or remove it, as needed.
             this.tblCustomerTableAdapter.Fill(this.iMSDBDataSet.tblCustomer);
             this.reportViewer1.RefreshReport();
-        }
-
-        private void reportViewer1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

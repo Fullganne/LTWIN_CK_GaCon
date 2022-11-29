@@ -34,7 +34,7 @@ namespace QLST_WinForm
             while (rd.Read())
             {
                 i++;
-                dgvCustomer.Rows.Add(i.ToString(), rd["cid"].ToString(), rd["cname"].ToString(), rd["cphone"].ToString());
+                dgvCustomer.Rows.Add(i.ToString(), rd["cId"].ToString(), rd["cname"].ToString(), rd["cphone"].ToString());
             }
             rd.Close();
             conn.Close();

@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\QLST_WinForm",
+    "\\QLST_WinForm\\QLST_WinForm"
   ],
-  "SelectedNode": "\\QLST_WinForm.sln",
+  "SelectedNode": "\\QLST_WinForm\\QLST_WinForm\\CustomerModuleForm.cs",
   "PreviewInSolutionExplorer": false
 }

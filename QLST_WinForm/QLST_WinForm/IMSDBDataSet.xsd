@@ -63,16 +63,7 @@ SELECT cId, cname, cPhone FROM tblCustomer WHERE (cId = @cId)</CommandText>
               <Mapping SourceColumn="cname" DataSetColumn="cname" />
               <Mapping SourceColumn="cPhone" DataSetColumn="cPhone" />
             </Mappings>
-            <Sources>
-              <DbSource ConnectionRef="IMSDBConnectionString1 (Settings)" DbObjectName="IMSDB.dbo.tblCustomer" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillBy" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="FillBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="FillBy">
-                <SelectCommand>
-                  <DbCommand CommandType="Text" ModifiedByUser="false">
-                    <CommandText>SELECT cId, cname, cPhone FROM dbo.tblCustomer</CommandText>
-                    <Parameters />
-                  </DbCommand>
-                </SelectCommand>
-              </DbSource>
-            </Sources>
+            <Sources />
           </TableAdapter>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tblProductTableAdapter" GeneratorDataComponentClassName="tblProductTableAdapter" Name="tblProduct" UserDataComponentName="tblProductTableAdapter">
             <MainSource>
@@ -172,33 +163,33 @@ SELECT pId, pname, pqty, pdescription, pcategory, pprice FROM tblProduct WHERE (
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="tblProduct" msprop:Generator_RowEvHandlerName="tblProductRowChangeEventHandler" msprop:Generator_RowDeletedName="tblProductRowDeleted" msprop:Generator_RowDeletingName="tblProductRowDeleting" msprop:Generator_RowEvArgName="tblProductRowChangeEvent" msprop:Generator_TablePropName="tblProduct" msprop:Generator_RowChangedName="tblProductRowChanged" msprop:Generator_RowChangingName="tblProductRowChanging" msprop:Generator_TableClassName="tblProductDataTable" msprop:Generator_RowClassName="tblProductRow" msprop:Generator_TableVarName="tabletblProduct" msprop:Generator_UserTableName="tblProduct">
+        <xs:element name="tblProduct" msprop:Generator_RowEvHandlerName="tblProductRowChangeEventHandler" msprop:Generator_RowDeletedName="tblProductRowDeleted" msprop:Generator_RowDeletingName="tblProductRowDeleting" msprop:Generator_RowEvArgName="tblProductRowChangeEvent" msprop:Generator_TablePropName="tblProduct" msprop:Generator_RowChangedName="tblProductRowChanged" msprop:Generator_UserTableName="tblProduct" msprop:Generator_RowChangingName="tblProductRowChanging" msprop:Generator_RowClassName="tblProductRow" msprop:Generator_TableClassName="tblProductDataTable" msprop:Generator_TableVarName="tabletblProduct">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="pId" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnPropNameInRow="pId" msprop:Generator_ColumnPropNameInTable="pIdColumn" msprop:Generator_ColumnVarNameInTable="columnpId" msprop:Generator_UserColumnName="pId" type="xs:int" />
-              <xs:element name="pname" msprop:Generator_ColumnPropNameInRow="pname" msprop:Generator_ColumnPropNameInTable="pnameColumn" msprop:Generator_ColumnVarNameInTable="columnpname" msprop:Generator_UserColumnName="pname">
+              <xs:element name="pId" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnPropNameInTable="pIdColumn" msprop:Generator_ColumnPropNameInRow="pId" msprop:Generator_UserColumnName="pId" msprop:Generator_ColumnVarNameInTable="columnpId" type="xs:int" />
+              <xs:element name="pname" msprop:Generator_ColumnPropNameInTable="pnameColumn" msprop:Generator_ColumnPropNameInRow="pname" msprop:Generator_UserColumnName="pname" msprop:Generator_ColumnVarNameInTable="columnpname">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="50" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="pqty" msprop:Generator_ColumnPropNameInRow="pqty" msprop:Generator_ColumnPropNameInTable="pqtyColumn" msprop:Generator_ColumnVarNameInTable="columnpqty" msprop:Generator_UserColumnName="pqty" type="xs:int" />
-              <xs:element name="pdescription" msprop:Generator_ColumnPropNameInRow="pdescription" msprop:Generator_ColumnPropNameInTable="pdescriptionColumn" msprop:Generator_ColumnVarNameInTable="columnpdescription" msprop:Generator_UserColumnName="pdescription" minOccurs="0">
+              <xs:element name="pqty" msprop:Generator_ColumnPropNameInTable="pqtyColumn" msprop:Generator_ColumnPropNameInRow="pqty" msprop:Generator_UserColumnName="pqty" msprop:Generator_ColumnVarNameInTable="columnpqty" type="xs:int" />
+              <xs:element name="pdescription" msprop:Generator_ColumnPropNameInTable="pdescriptionColumn" msprop:Generator_ColumnPropNameInRow="pdescription" msprop:Generator_UserColumnName="pdescription" msprop:Generator_ColumnVarNameInTable="columnpdescription" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="50" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="pcategory" msprop:Generator_ColumnPropNameInRow="pcategory" msprop:Generator_ColumnPropNameInTable="pcategoryColumn" msprop:Generator_ColumnVarNameInTable="columnpcategory" msprop:Generator_UserColumnName="pcategory">
+              <xs:element name="pcategory" msprop:Generator_ColumnPropNameInTable="pcategoryColumn" msprop:Generator_ColumnPropNameInRow="pcategory" msprop:Generator_UserColumnName="pcategory" msprop:Generator_ColumnVarNameInTable="columnpcategory">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="50" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="pprice" msprop:Generator_ColumnPropNameInRow="pprice" msprop:Generator_ColumnPropNameInTable="ppriceColumn" msprop:Generator_ColumnVarNameInTable="columnpprice" msprop:Generator_UserColumnName="pprice" type="xs:int" />
+              <xs:element name="pprice" msprop:Generator_ColumnPropNameInTable="ppriceColumn" msprop:Generator_ColumnPropNameInRow="pprice" msprop:Generator_UserColumnName="pprice" msprop:Generator_ColumnVarNameInTable="columnpprice" type="xs:int" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>

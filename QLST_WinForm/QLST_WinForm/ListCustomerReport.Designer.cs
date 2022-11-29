@@ -30,37 +30,36 @@
         {
             this.components = new System.ComponentModel.Container();
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
-            this.tblCustomerBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.iMSDBDataSet = new QLST_WinForm.IMSDBDataSet();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
+            this.iMSDBDataSet = new QLST_WinForm.IMSDBDataSet();
+            this.tblCustomerbindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tblCustomerTableAdapter = new QLST_WinForm.IMSDBDataSetTableAdapters.tblCustomerTableAdapter();
-            ((System.ComponentModel.ISupportInitialize)(this.tblCustomerBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iMSDBDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tblCustomerbindingSource)).BeginInit();
             this.SuspendLayout();
             // 
-            // tblCustomerBindingSource
+            // reportViewer1
             // 
-            this.tblCustomerBindingSource.DataMember = "tblCustomer";
-            this.tblCustomerBindingSource.DataSource = this.iMSDBDataSet;
+            reportDataSource1.Name = "DataSet1";
+            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
+            this.reportViewer1.LocalReport.ReportEmbeddedResource = "QLST_WinForm.ListCustomerReport.rdlc";
+            this.reportViewer1.Location = new System.Drawing.Point(12, 11);
+            this.reportViewer1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.reportViewer1.Name = "reportViewer1";
+            this.reportViewer1.ServerReport.BearerToken = null;
+            this.reportViewer1.Size = new System.Drawing.Size(827, 523);
+            this.reportViewer1.TabIndex = 0;
             // 
             // iMSDBDataSet
             // 
             this.iMSDBDataSet.DataSetName = "IMSDBDataSet";
             this.iMSDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // reportViewer1
+            // tblCustomerbindingSource
             // 
-            reportDataSource1.Name = "DataSet1";
-            reportDataSource1.Value = this.tblCustomerBindingSource;
-            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
-            this.reportViewer1.LocalReport.ReportEmbeddedResource = "QLST_WinForm.ListCustomerReport.rdlc";
-            this.reportViewer1.Location = new System.Drawing.Point(8, 10);
-            this.reportViewer1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.ServerReport.BearerToken = null;
-            this.reportViewer1.Size = new System.Drawing.Size(621, 425);
-            this.reportViewer1.TabIndex = 0;
-            this.reportViewer1.Load += new System.EventHandler(this.reportViewer1_Load);
+            this.tblCustomerbindingSource.AllowNew = true;
+            this.tblCustomerbindingSource.DataSource = this.iMSDBDataSet;
+            this.tblCustomerbindingSource.Position = 0;
             // 
             // tblCustomerTableAdapter
             // 
@@ -68,16 +67,16 @@
             // 
             // ListCustomerReport
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(638, 444);
+            this.ClientSize = new System.Drawing.Size(851, 546);
             this.Controls.Add(this.reportViewer1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "ListCustomerReport";
             this.Text = "ListCustomerReport";
             this.Load += new System.EventHandler(this.ListCustomerReport_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.tblCustomerBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iMSDBDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tblCustomerbindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -86,7 +85,7 @@
 
         private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
         private IMSDBDataSet iMSDBDataSet;
-        private System.Windows.Forms.BindingSource tblCustomerBindingSource;
+        private System.Windows.Forms.BindingSource tblCustomerbindingSource;
         private IMSDBDataSetTableAdapters.tblCustomerTableAdapter tblCustomerTableAdapter;
     }
 }

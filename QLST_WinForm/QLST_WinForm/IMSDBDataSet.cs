@@ -6,3 +6,9 @@
     {
     }
 }
+namespace QLST_WinForm.IMSDBDataSetTableAdapters {
+    
+    
+    public partial class tblProductTableAdapter {
+    }
+}

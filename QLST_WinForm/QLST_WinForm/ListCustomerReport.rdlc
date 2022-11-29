@@ -344,7 +344,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>IMSDBDataSet</rd:DataSetName>
-        <rd:SchemaPath>D:\Repos\QLST_WinForm\QLST_WinForm\QLST_WinForm\IMSDBDataSet.xsd</rd:SchemaPath>
+        <rd:SchemaPath>C:\Users\vokie\source\repos\LTWIN_CK_GaCon\QLST_WinForm\QLST_WinForm\IMSDBDataSet.xsd</rd:SchemaPath>
         <rd:TableName>tblCustomer</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>

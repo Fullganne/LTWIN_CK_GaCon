@@ -83,6 +83,7 @@ namespace QLST_WinForm
                 {
                     MainForm m = new MainForm();
                     m.ShowDialog();
+                    
                 }
             }
         }

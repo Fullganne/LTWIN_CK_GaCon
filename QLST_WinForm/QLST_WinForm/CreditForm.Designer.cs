@@ -64,9 +64,10 @@
             // 
             this.lbgroupname.AutoSize = true;
             this.lbgroupname.Font = new System.Drawing.Font("Comic Sans MS", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbgroupname.ForeColor = System.Drawing.Color.Black;
             this.lbgroupname.Location = new System.Drawing.Point(12, 53);
             this.lbgroupname.Name = "lbgroupname";
-            this.lbgroupname.Size = new System.Drawing.Size(163, 32);
+            this.lbgroupname.Size = new System.Drawing.Size(159, 31);
             this.lbgroupname.TabIndex = 1;
             this.lbgroupname.Text = "Nhóm Gà Con";
             // 
