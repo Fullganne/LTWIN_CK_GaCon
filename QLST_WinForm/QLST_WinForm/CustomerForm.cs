@@ -87,5 +87,28 @@ namespace QLST_WinForm
             ListCustomerReport listCustomerReport = new ListCustomerReport();
             listCustomerReport.Show();
         }
+
+    
+
+        private void txtSearch_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (txtSearch.Text == "")
+                LoadCustomer();
+            else
+            {
+                dgvCustomer.Rows.Clear();
+                int i = 0;
+                conn.Open();
+                cmd = new SqlCommand($"Select * from tblCustomer where cname like '%{txtSearch.Text}%'", conn);
+                rd = cmd.ExecuteReader();
+                while (rd.Read())
+                {
+                    i++;
+                    dgvCustomer.Rows.Add(i.ToString(), rd["cid"].ToString(), rd["cname"].ToString(), rd["cphone"].ToString());
+                }
+                rd.Close();
+                conn.Close();
+            }
+        }
     }
 }

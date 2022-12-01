@@ -245,6 +245,26 @@ namespace QLST_WinForm
         {
 
         }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            
+            ProductModuleForm productModule = new ProductModuleForm();
+            productModule.btnUpdate.Enabled = false;
+            productModule.btnSave.Enabled = true;
+            productModule.ShowDialog();
+            LoadProduct();
+            
+        }
+
+        private void customerButton1_Click(object sender, EventArgs e)
+        {
+            CustomerModuleForm customerModule = new CustomerModuleForm();
+            customerModule.btnSave.Enabled = true;
+            customerModule.btnUpdate.Enabled = false;
+            customerModule.ShowDialog();
+            LoadCustomer();
+        }
     }
 
 }
