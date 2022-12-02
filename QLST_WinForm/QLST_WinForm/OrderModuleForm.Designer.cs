@@ -35,6 +35,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pnlhead = new System.Windows.Forms.Panel();
             this.pnlleft = new System.Windows.Forms.Panel();
+            this.btnCtmInsert = new System.Windows.Forms.Button();
             this.txtCustomerName = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.txtCustomerID = new System.Windows.Forms.TextBox();
@@ -101,7 +102,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(28, 30);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(145, 19);
+            this.label1.Size = new System.Drawing.Size(184, 23);
             this.label1.TabIndex = 0;
             this.label1.Text = "Customer Module";
             // 
@@ -122,6 +123,7 @@
             // pnlleft
             // 
             this.pnlleft.BackColor = System.Drawing.Color.White;
+            this.pnlleft.Controls.Add(this.btnCtmInsert);
             this.pnlleft.Controls.Add(this.txtCustomerName);
             this.pnlleft.Controls.Add(this.label7);
             this.pnlleft.Controls.Add(this.txtCustomerID);
@@ -136,12 +138,26 @@
             this.pnlleft.Size = new System.Drawing.Size(349, 625);
             this.pnlleft.TabIndex = 23;
             // 
+            // btnCtmInsert
+            // 
+            this.btnCtmInsert.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnCtmInsert.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCtmInsert.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCtmInsert.ForeColor = System.Drawing.Color.White;
+            this.btnCtmInsert.Location = new System.Drawing.Point(149, 548);
+            this.btnCtmInsert.Name = "btnCtmInsert";
+            this.btnCtmInsert.Size = new System.Drawing.Size(178, 57);
+            this.btnCtmInsert.TabIndex = 23;
+            this.btnCtmInsert.Text = "Customer Insert";
+            this.btnCtmInsert.UseVisualStyleBackColor = false;
+            this.btnCtmInsert.Click += new System.EventHandler(this.btnCtmInsert_Click);
+            // 
             // txtCustomerName
             // 
             this.txtCustomerName.Enabled = false;
             this.txtCustomerName.Location = new System.Drawing.Point(16, 457);
             this.txtCustomerName.Name = "txtCustomerName";
-            this.txtCustomerName.Size = new System.Drawing.Size(209, 22);
+            this.txtCustomerName.Size = new System.Drawing.Size(209, 26);
             this.txtCustomerName.TabIndex = 10;
             // 
             // label7
@@ -149,7 +165,7 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(13, 426);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(101, 16);
+            this.label7.Size = new System.Drawing.Size(127, 18);
             this.label7.TabIndex = 9;
             this.label7.Text = "Customer Name";
             // 
@@ -158,7 +174,7 @@
             this.txtCustomerID.Enabled = false;
             this.txtCustomerID.Location = new System.Drawing.Point(16, 380);
             this.txtCustomerID.Name = "txtCustomerID";
-            this.txtCustomerID.Size = new System.Drawing.Size(209, 22);
+            this.txtCustomerID.Size = new System.Drawing.Size(209, 26);
             this.txtCustomerID.TabIndex = 10;
             // 
             // label6
@@ -166,7 +182,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(13, 352);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(77, 16);
+            this.label6.Size = new System.Drawing.Size(97, 18);
             this.label6.TabIndex = 9;
             this.label6.Text = "Customer ID";
             // 
@@ -176,7 +192,7 @@
             this.label4.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(49, 265);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(84, 17);
+            this.label4.Size = new System.Drawing.Size(103, 19);
             this.label4.TabIndex = 8;
             this.label4.Text = "Search box";
             // 
@@ -184,7 +200,7 @@
             // 
             this.txtSearchCustomer.Location = new System.Drawing.Point(158, 263);
             this.txtSearchCustomer.Name = "txtSearchCustomer";
-            this.txtSearchCustomer.Size = new System.Drawing.Size(169, 22);
+            this.txtSearchCustomer.Size = new System.Drawing.Size(169, 26);
             this.txtSearchCustomer.TabIndex = 7;
             this.txtSearchCustomer.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSearchCustomer_KeyPress);
             // 
@@ -196,7 +212,7 @@
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.label2.Location = new System.Drawing.Point(12, 307);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(90, 19);
+            this.label2.Size = new System.Drawing.Size(114, 23);
             this.label2.TabIndex = 6;
             this.label2.Text = "CUSTOMER";
             // 
@@ -236,7 +252,7 @@
             this.Column7.HeaderText = "No";
             this.Column7.MinimumWidth = 6;
             this.Column7.Name = "Column7";
-            this.Column7.Width = 49;
+            this.Column7.Width = 58;
             // 
             // Column1
             // 
@@ -244,7 +260,7 @@
             this.Column1.HeaderText = "Customer ID";
             this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
-            this.Column1.Width = 102;
+            this.Column1.Width = 126;
             // 
             // Column3
             // 
@@ -284,7 +300,7 @@
             // 
             this.nudquantity.Location = new System.Drawing.Point(534, 408);
             this.nudquantity.Name = "nudquantity";
-            this.nudquantity.Size = new System.Drawing.Size(196, 22);
+            this.nudquantity.Size = new System.Drawing.Size(196, 26);
             this.nudquantity.TabIndex = 25;
             this.nudquantity.ValueChanged += new System.EventHandler(this.nudquantity_ValueChanged);
             // 
@@ -321,7 +337,7 @@
             this.dtpkDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpkDate.Location = new System.Drawing.Point(22, 512);
             this.dtpkDate.Name = "dtpkDate";
-            this.dtpkDate.Size = new System.Drawing.Size(219, 22);
+            this.dtpkDate.Size = new System.Drawing.Size(219, 26);
             this.dtpkDate.TabIndex = 11;
             // 
             // label5
@@ -330,7 +346,7 @@
             this.label5.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(332, 265);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(84, 17);
+            this.label5.Size = new System.Drawing.Size(103, 19);
             this.label5.TabIndex = 10;
             this.label5.Text = "Search box";
             // 
@@ -338,7 +354,7 @@
             // 
             this.txtSearchProduct.Location = new System.Drawing.Point(447, 263);
             this.txtSearchProduct.Name = "txtSearchProduct";
-            this.txtSearchProduct.Size = new System.Drawing.Size(282, 22);
+            this.txtSearchProduct.Size = new System.Drawing.Size(282, 26);
             this.txtSearchProduct.TabIndex = 9;
             this.txtSearchProduct.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSearchProduct_KeyPress);
             // 
@@ -347,7 +363,7 @@
             this.txtTotal.Enabled = false;
             this.txtTotal.Location = new System.Drawing.Point(534, 446);
             this.txtTotal.Name = "txtTotal";
-            this.txtTotal.Size = new System.Drawing.Size(195, 22);
+            this.txtTotal.Size = new System.Drawing.Size(195, 26);
             this.txtTotal.TabIndex = 10;
             // 
             // label12
@@ -355,7 +371,7 @@
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(452, 449);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(35, 16);
+            this.label12.Size = new System.Drawing.Size(42, 18);
             this.label12.TabIndex = 9;
             this.label12.Text = "Total";
             // 
@@ -364,7 +380,7 @@
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(424, 408);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(55, 16);
+            this.label11.Size = new System.Drawing.Size(70, 18);
             this.label11.TabIndex = 9;
             this.label11.Text = "Quantity";
             // 
@@ -373,7 +389,7 @@
             this.txtProductName.Enabled = false;
             this.txtProductName.Location = new System.Drawing.Point(23, 450);
             this.txtProductName.Name = "txtProductName";
-            this.txtProductName.Size = new System.Drawing.Size(218, 22);
+            this.txtProductName.Size = new System.Drawing.Size(218, 26);
             this.txtProductName.TabIndex = 10;
             // 
             // txtPrice
@@ -381,7 +397,7 @@
             this.txtPrice.Enabled = false;
             this.txtPrice.Location = new System.Drawing.Point(534, 362);
             this.txtPrice.Name = "txtPrice";
-            this.txtPrice.Size = new System.Drawing.Size(195, 22);
+            this.txtPrice.Size = new System.Drawing.Size(195, 26);
             this.txtPrice.TabIndex = 10;
             // 
             // label13
@@ -389,7 +405,7 @@
             this.label13.AutoSize = true;
             this.label13.Location = new System.Drawing.Point(20, 491);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(34, 16);
+            this.label13.Size = new System.Drawing.Size(43, 18);
             this.label13.TabIndex = 9;
             this.label13.Text = "Date";
             // 
@@ -398,7 +414,7 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(20, 419);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(91, 16);
+            this.label9.Size = new System.Drawing.Size(113, 18);
             this.label9.TabIndex = 9;
             this.label9.Text = "Product Name";
             // 
@@ -407,7 +423,7 @@
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(449, 365);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(37, 16);
+            this.label10.Size = new System.Drawing.Size(45, 18);
             this.label10.TabIndex = 9;
             this.label10.Text = "Price";
             // 
@@ -416,7 +432,7 @@
             this.txtProductID.Enabled = false;
             this.txtProductID.Location = new System.Drawing.Point(22, 380);
             this.txtProductID.Name = "txtProductID";
-            this.txtProductID.Size = new System.Drawing.Size(218, 22);
+            this.txtProductID.Size = new System.Drawing.Size(218, 26);
             this.txtProductID.TabIndex = 10;
             // 
             // label8
@@ -424,7 +440,7 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(20, 355);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(67, 16);
+            this.label8.Size = new System.Drawing.Size(83, 18);
             this.label8.TabIndex = 9;
             this.label8.Text = "Product ID";
             // 
@@ -436,7 +452,7 @@
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.label3.Location = new System.Drawing.Point(18, 307);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(84, 19);
+            this.label3.Size = new System.Drawing.Size(107, 23);
             this.label3.TabIndex = 6;
             this.label3.Text = "PRODUCT ";
             // 
@@ -481,7 +497,7 @@
             this.dataGridViewTextBoxColumn1.HeaderText = "No";
             this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.Width = 49;
+            this.dataGridViewTextBoxColumn1.Width = 58;
             // 
             // dataGridViewTextBoxColumn2
             // 
@@ -489,7 +505,7 @@
             this.dataGridViewTextBoxColumn2.HeaderText = "Product ID";
             this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            this.dataGridViewTextBoxColumn2.Width = 92;
+            this.dataGridViewTextBoxColumn2.Width = 112;
             // 
             // dataGridViewTextBoxColumn3
             // 
@@ -497,7 +513,7 @@
             this.dataGridViewTextBoxColumn3.HeaderText = "Name";
             this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            this.dataGridViewTextBoxColumn3.Width = 68;
+            this.dataGridViewTextBoxColumn3.Width = 82;
             // 
             // Column2
             // 
@@ -505,7 +521,7 @@
             this.Column2.HeaderText = "Quantity";
             this.Column2.MinimumWidth = 6;
             this.Column2.Name = "Column2";
-            this.Column2.Width = 80;
+            this.Column2.Width = 99;
             // 
             // Column4
             // 
@@ -513,7 +529,7 @@
             this.Column4.HeaderText = "Price";
             this.Column4.MinimumWidth = 6;
             this.Column4.Name = "Column4";
-            this.Column4.Width = 62;
+            this.Column4.Width = 74;
             // 
             // Column5
             // 
@@ -531,7 +547,7 @@
             // 
             // OrderModuleForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1110, 711);
             this.Controls.Add(this.pnlright);
@@ -600,5 +616,6 @@
         public System.Windows.Forms.TextBox txtPrice;
         public System.Windows.Forms.TextBox txtProductID;
         public System.Windows.Forms.NumericUpDown nudquantity;
+        public System.Windows.Forms.Button btnCtmInsert;
     }
 }

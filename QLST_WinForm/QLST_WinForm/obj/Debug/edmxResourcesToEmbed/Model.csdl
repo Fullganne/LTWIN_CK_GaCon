@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="IMSDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="IMSDBEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="GetOrdersReport" ReturnType="Collection(IMSDBModel.GetOrdersReport_Result)">
+      <Parameter Name="Fromdate" Mode="In" Type="DateTime" />
+      <Parameter Name="Todate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="GetOrdersReport_Result">
+    <Property Type="Int32" Name="oId" Nullable="false" />
+    <Property Type="DateTime" Name="odate" Nullable="false" />
+    <Property Type="Int32" Name="cID" Nullable="false" />
+    <Property Type="Int32" Name="pID" Nullable="false" />
+    <Property Type="Int32" Name="qty" Nullable="false" />
+    <Property Type="Int32" Name="price" Nullable="false" />
+    <Property Type="Int32" Name="total" Nullable="false" />
+  </ComplexType>
+</Schema>

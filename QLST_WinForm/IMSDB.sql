@@ -116,3 +116,19 @@ INSERT [dbo].[tblUser] ([username], [fullname], [password], [phone]) VALUES (N'k
 INSERT [dbo].[tblUser] ([username], [fullname], [password], [phone]) VALUES (N'anhlinh', N'Nguyễn Trần Ánh Linh', N'789', N'333333333')
 INSERT [dbo].[tblUser] ([username], [fullname], [password], [phone]) VALUES (N'minhquan', N'Võ Nguyễn Đình Quân', N'345', N'444444444')
 GO
+
+USE [IMSDB]
+GO
+
+CREATE PROCEDURE GetOrdersReport
+(
+	@Fromdate datetime,
+	@Todate datetime
+)
+AS
+	SELECT [oId], [odate], [cname], [pID], [qty], [price], [total]
+	FROM [dbo].[tblOrder]
+	JOIN [dbo].[tblCustomer] ON [dbo].[tblCustomer].[cId] = [dbo].[tblOrder].[cID]
+	WHERE odate between @Fromdate and @Todate
+	ORDER BY odate asc
+GO

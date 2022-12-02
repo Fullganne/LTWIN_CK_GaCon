@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="IMSDBModelStoreContainer" CdmEntityContainer="IMSDBEntities">
+    <FunctionImportMapping FunctionImportName="GetOrdersReport" FunctionName="IMSDBModel.Store.GetOrdersReport">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="IMSDBModel.GetOrdersReport_Result">
+          <ScalarProperty Name="oId" ColumnName="oId" />
+          <ScalarProperty Name="odate" ColumnName="odate" />
+          <ScalarProperty Name="cID" ColumnName="cID" />
+          <ScalarProperty Name="pID" ColumnName="pID" />
+          <ScalarProperty Name="qty" ColumnName="qty" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="total" ColumnName="total" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

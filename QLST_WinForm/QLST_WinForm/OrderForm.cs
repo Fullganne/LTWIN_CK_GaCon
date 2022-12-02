@@ -114,5 +114,11 @@ namespace QLST_WinForm
                 LoadOrder();
             }
         }
+
+        private void btnReport_Click(object sender, EventArgs e)
+        {
+            ListOrderReport listOrderReport = new ListOrderReport();
+            listOrderReport.ShowDialog();
+        }
     }
 }

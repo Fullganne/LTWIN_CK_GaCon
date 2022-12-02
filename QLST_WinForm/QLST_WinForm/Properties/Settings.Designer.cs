@@ -36,7 +36,7 @@ namespace QLST_WinForm.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DUCAN\\ANSERVER;Initial Catalog=IMSDB;Integrated Security=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.\\SQLEXPRESS;Initial Catalog=IMSDB;Integrated Security=True")]
         public string IMSDBConnectionString1 {
             get {
                 return ((string)(this["IMSDBConnectionString1"]));
@@ -46,7 +46,7 @@ namespace QLST_WinForm.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=SUNNY\\DUONGSQLSERVER;Initial Catalog=IMSDB;Integrated Security=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.\\SQLEXPRESS;Initial Catalog=IMSDB;Integrated Security=True")]
         public string IMSDBConnectionString2 {
             get {
                 return ((string)(this["IMSDBConnectionString2"]));
