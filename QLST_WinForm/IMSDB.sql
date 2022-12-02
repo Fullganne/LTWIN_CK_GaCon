@@ -126,9 +126,8 @@ CREATE PROCEDURE GetOrdersReport
 	@Todate datetime
 )
 AS
-	SELECT [oId], [odate], [cname], [pID], [qty], [price], [total]
+	SELECT [oId], [odate], [cID], [pID], [qty], [price], [total]
 	FROM [dbo].[tblOrder]
-	JOIN [dbo].[tblCustomer] ON [dbo].[tblCustomer].[cId] = [dbo].[tblOrder].[cID]
 	WHERE odate between @Fromdate and @Todate
 	ORDER BY odate asc
 GO

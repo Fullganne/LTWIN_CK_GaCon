@@ -35,7 +35,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pnlhead = new System.Windows.Forms.Panel();
             this.pnlleft = new System.Windows.Forms.Panel();
-            this.btnCtmInsert = new System.Windows.Forms.Button();
+            this.btnAddCtm = new QLST_WinForm.CustomerButton();
             this.txtCustomerName = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.txtCustomerID = new System.Windows.Forms.TextBox();
@@ -48,6 +48,7 @@
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pnlright = new System.Windows.Forms.Panel();
+            this.btnAddprd = new QLST_WinForm.CustomerButton();
             this.nudquantity = new System.Windows.Forms.NumericUpDown();
             this.btnClear = new System.Windows.Forms.Button();
             this.btnInsert = new System.Windows.Forms.Button();
@@ -76,8 +77,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.ptbClose)).BeginInit();
             this.pnlhead.SuspendLayout();
             this.pnlleft.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAddCtm)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCustomer)).BeginInit();
             this.pnlright.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAddprd)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudquantity)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProducts)).BeginInit();
             this.SuspendLayout();
@@ -123,7 +126,7 @@
             // pnlleft
             // 
             this.pnlleft.BackColor = System.Drawing.Color.White;
-            this.pnlleft.Controls.Add(this.btnCtmInsert);
+            this.pnlleft.Controls.Add(this.btnAddCtm);
             this.pnlleft.Controls.Add(this.txtCustomerName);
             this.pnlleft.Controls.Add(this.label7);
             this.pnlleft.Controls.Add(this.txtCustomerID);
@@ -138,19 +141,20 @@
             this.pnlleft.Size = new System.Drawing.Size(349, 625);
             this.pnlleft.TabIndex = 23;
             // 
-            // btnCtmInsert
+            // btnAddCtm
             // 
-            this.btnCtmInsert.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnCtmInsert.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCtmInsert.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCtmInsert.ForeColor = System.Drawing.Color.White;
-            this.btnCtmInsert.Location = new System.Drawing.Point(149, 548);
-            this.btnCtmInsert.Name = "btnCtmInsert";
-            this.btnCtmInsert.Size = new System.Drawing.Size(178, 57);
-            this.btnCtmInsert.TabIndex = 23;
-            this.btnCtmInsert.Text = "Customer Insert";
-            this.btnCtmInsert.UseVisualStyleBackColor = false;
-            this.btnCtmInsert.Click += new System.EventHandler(this.btnCtmInsert_Click);
+            this.btnAddCtm.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnAddCtm.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAddCtm.Image = ((System.Drawing.Image)(resources.GetObject("btnAddCtm.Image")));
+            this.btnAddCtm.ImageHover = ((System.Drawing.Image)(resources.GetObject("btnAddCtm.ImageHover")));
+            this.btnAddCtm.ImageNormal = ((System.Drawing.Image)(resources.GetObject("btnAddCtm.ImageNormal")));
+            this.btnAddCtm.Location = new System.Drawing.Point(16, 262);
+            this.btnAddCtm.Name = "btnAddCtm";
+            this.btnAddCtm.Size = new System.Drawing.Size(31, 27);
+            this.btnAddCtm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnAddCtm.TabIndex = 11;
+            this.btnAddCtm.TabStop = false;
+            this.btnAddCtm.Click += new System.EventHandler(this.btnAddCtm_Click);
             // 
             // txtCustomerName
             // 
@@ -272,6 +276,7 @@
             // pnlright
             // 
             this.pnlright.BackColor = System.Drawing.Color.White;
+            this.pnlright.Controls.Add(this.btnAddprd);
             this.pnlright.Controls.Add(this.nudquantity);
             this.pnlright.Controls.Add(this.btnClear);
             this.pnlright.Controls.Add(this.btnInsert);
@@ -295,6 +300,21 @@
             this.pnlright.Name = "pnlright";
             this.pnlright.Size = new System.Drawing.Size(755, 625);
             this.pnlright.TabIndex = 23;
+            // 
+            // btnAddprd
+            // 
+            this.btnAddprd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnAddprd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAddprd.Image = ((System.Drawing.Image)(resources.GetObject("btnAddprd.Image")));
+            this.btnAddprd.ImageHover = ((System.Drawing.Image)(resources.GetObject("btnAddprd.ImageHover")));
+            this.btnAddprd.ImageNormal = ((System.Drawing.Image)(resources.GetObject("btnAddprd.ImageNormal")));
+            this.btnAddprd.Location = new System.Drawing.Point(295, 262);
+            this.btnAddprd.Name = "btnAddprd";
+            this.btnAddprd.Size = new System.Drawing.Size(31, 27);
+            this.btnAddprd.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnAddprd.TabIndex = 26;
+            this.btnAddprd.TabStop = false;
+            this.btnAddprd.Click += new System.EventHandler(this.btnAddprd_Click);
             // 
             // nudquantity
             // 
@@ -489,7 +509,6 @@
             this.dgvProducts.Size = new System.Drawing.Size(755, 256);
             this.dgvProducts.TabIndex = 9;
             this.dgvProducts.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvProducts_CellClick);
-            this.dgvProducts.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvProducts_CellContentClick);
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -564,9 +583,11 @@
             this.pnlhead.PerformLayout();
             this.pnlleft.ResumeLayout(false);
             this.pnlleft.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAddCtm)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCustomer)).EndInit();
             this.pnlright.ResumeLayout(false);
             this.pnlright.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAddprd)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudquantity)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProducts)).EndInit();
             this.ResumeLayout(false);
@@ -616,6 +637,7 @@
         public System.Windows.Forms.TextBox txtPrice;
         public System.Windows.Forms.TextBox txtProductID;
         public System.Windows.Forms.NumericUpDown nudquantity;
-        public System.Windows.Forms.Button btnCtmInsert;
+        private CustomerButton btnAddCtm;
+        private CustomerButton btnAddprd;
     }
 }

@@ -241,18 +241,22 @@ namespace QLST_WinForm
             conn.Close();
         }
 
-        private void dgvProducts_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void btnCtmInsert_Click(object sender, EventArgs e)
+        private void btnAddCtm_Click(object sender, EventArgs e)
         {
             CustomerModuleForm customerModule = new CustomerModuleForm();
             customerModule.btnSave.Enabled = true;
             customerModule.btnUpdate.Enabled = false;
             customerModule.ShowDialog();
             LoadCustomer();
+        }
+
+        private void btnAddprd_Click(object sender, EventArgs e)
+        {
+            ProductModuleForm productModule = new ProductModuleForm();
+            productModule.btnUpdate.Enabled = false;
+            productModule.btnSave.Enabled = true;
+            productModule.ShowDialog();
+            LoadProduct();
         }
     }
 
